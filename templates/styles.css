@@ -1,0 +1,352 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700&display=swap");
+
+.heading {
+    /*display: flex;*/
+    font-family: Optima, sans-serif;
+    /*display: flex;*/
+    width: 100%;
+    padding: 5px;
+    /*font-weight: bold;*/
+    text-align: center;
+    color: #ffffff;
+    /*background-color: #414141;*/
+    font-size: 14px;
+    border: #fffefe;
+    text-shadow: 2px 0 3px rgb(0, 0, 0);
+    /*background: linear-gradient(0.35turn, #266891, #b7adce, rgb(150, 72, 213)););*/
+}
+
+/*#head{*/
+/*    display: flex;*/
+/*}*/
+#reset{
+    /*text-align: center;*/
+    /*display: block;*/
+    /*margin: 20px auto;*/
+    background-color: #595757;
+    /*box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
+    padding: 10px 24px;
+    /*font-family: system-ui, sans-serif;*/
+    /*font-weight: bold;*/
+    color: #ffffff;
+    cursor: pointer;
+}
+
+body {
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    background-color: #282828;
+}
+
+
+.axis line,
+.axis path {
+    fill: black;
+    stroke: #000;
+    shape-rendering: crispEdges;
+}
+
+.axis text {
+    text-shadow: 0 1px 0 #ffffff, 1px 0 0 #fffdfd, 0 -1px 0 #ffffff, -1px 0 0 #ffffff;
+    cursor: move;
+}
+
+
+.boxrow1 {
+    display: flex;
+    background-color: #4f4f4f
+}
+
+.boxrow2 {
+    display: flex;
+    background-color: #4f4f4f
+}
+
+.usmapid {
+    /*background: linear-gradient(#35353a, #0e0d0d);*/
+    /*border-style: solid;*/
+    /*padding:20px;*/
+    height: 500px;
+    width: 800px;
+
+    border-width: 7px;
+    border-color:  #4f4f4f ;
+    border-radius: 30px;
+    background-color: #343434;
+    border-style: solid;
+    /*margin: auto;*/
+    /*margin-top: 3%;*/
+    /*border: 10px double #4f4f4f;*/
+    /*background: linear-gradient(#35353a, #0e0d0d);*/
+    background-clip: padding-box;
+    /*padding: 20px;*/
+}
+
+.pcpplotid {
+    /*border-width: thick;*/
+    height: 400px;
+    width: 1200px;
+    /*border-radius: 7px;*/
+    /*border: 10px double #4f4f4f;*/
+    /*background-color: #343434;*/
+    border-width: 7px;
+    border-color:  #4f4f4f ;
+    border-radius: 30px;
+    background-color: #343434;
+    border-style: solid;
+    /*background: linear-gradient(#35353a, #0e0d0d);*/
+    background-clip: padding-box;
+    padding: 5px;
+}
+
+.newpie {
+    /*border-radius: 7px;*/
+    /*border-width: thick;*/
+    width: 768px;
+    height: 400px;
+    /*border: 10px double #4f4f4f;*/
+    /*background-color: #343434;*/
+    /*background: linear-gradient(#35353a, #0e0d0d);*/
+    border-width: 7px;
+    border-color:  #4f4f4f ;
+    border-radius: 30px;
+    background-color: #343434;
+    border-style: solid;
+    background-clip: padding-box;
+    padding: 5px;
+}
+
+
+.boxes{
+    display: flex;
+}
+
+
+.bar{
+    cursor: pointer;
+    /*stroke: rgba(255, 255, 255, 0.64);*/
+    /*stroke-width: 1px;*/
+    fill: #00d794;
+    shape-rendering: crispEdges;
+}
+
+.map{
+    cursor: pointer;
+}
+
+
+
+/*.buttom{*/
+/*    display: flex;*/
+/*}*/
+
+
+.scatterid {
+
+    /*border-radius: 7px;*/
+    height: 500px;
+    width: 600px;
+    /*border: 10px double #4f4f4f;*/
+    /*background-color: #343434;*/
+    /*background: linear-gradient(#35353a, #0e0d0d);*/
+    border-width: 7px;
+    border-color:  #4f4f4f ;
+    border-radius: 30px;
+    background-color: #343434;
+    border-style: solid;
+    background-clip: padding-box;
+    padding: 5px;
+}
+
+.barid {
+    /*border-radius: 7px;*/
+    height: 500px;
+    width:600px;
+    border-width: 7px;
+    border-color:  #4f4f4f ;
+    border-radius: 30px;
+    background-color: #343434;
+    border-style: solid;
+    /*background: linear-gradient(#35353a, #0e0d0d);*/
+    background-clip: padding-box;
+    padding: 5px;
+}
+
+
+
+/*.pie3 {*/
+/*    border-style: solid;*/
+/*    border-radius: 0px 7px 7px 0px;*/
+/*    border-style: solid solid solid none;*/
+/*    height: 145px;*/
+/*    width: 350px;*/
+/*    background-color: #343434;*/
+/*}*/
+
+
+
+body {
+    font-family: Sans-serif;
+    font-size: 11px;
+    background-color: black;
+}
+
+.slice {
+    cursor: pointer;
+}
+
+.slice .main-arc {
+    stroke: rgba(0, 0, 0, 0.77);
+    stroke-width: 1px;
+}
+
+.slice .hidden-arc {
+    fill: none;
+}
+
+.slice text {
+    pointer-events: none;
+    dominant-baseline: middle;
+    text-anchor: middle;
+}
+
+
+.xaxis-scatter{
+    stroke: #ffffff;
+}
+
+
+
+/* RESET RULES
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+svg {
+    display: block;
+}
+
+body {
+    font: 16px/1.5 "Lato", sans-serif;
+}
+
+table, tr, td {
+    border: 1px solid black;
+}
+
+
+/* PCP PLOT */
+.selected {
+    opacity: 1 !important;
+    stroke: #a1a1a1;
+    stroke-width: 1px;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #4f4f4f;
+}
+
+
+.background path {
+    fill: none;
+    stroke: none;
+    shape-rendering: crispEdges;
+}
+
+.foreground path {
+    fill: none;
+}
+
+.brush .extent {
+    fill-opacity: .3;
+    stroke: #fff;
+    shape-rendering: crispEdges;
+}
+
+.axis line,
+.axis path {
+    fill: none;
+    stroke: #ffffff;
+    shape-rendering: crispEdges;
+}
+
+.axis text {
+    cursor: move;
+}
+
+/*.axis-label{*/
+/*    stroke: none;*/
+/*}*/
+
+.brushed {
+  fill: #ff3399;
+  stroke: #8e1b54;
+  opacity: 1.0;
+}
+
+.non_brushed {
+  fill: #a444ff;
+  opacity: 0.5;
+}
+
+
+.x-scatter line,
+.x-scatter text,
+.x-scatter path {
+    fill: none;
+    stroke: #ffffff;
+    shape-rendering: crispEdges;
+}
+
+/*.x-scatter text{*/
+/*    fill: #ffffff;*/
+/*}*/
+
+.y-scatter line,
+.y-scatter text,
+.y-scatter path {
+    fill: none;
+    stroke: #ffffff;
+    shape-rendering: crispEdges;
+}
+
+/*.pieborder {*/
+/*    fill: none;*/
+/*}*/
+
+.pieslice1{
+    cursor: pointer;
+}
+
+.pieslice{
+    cursor: pointer;
+}
+
+/*.y axis{*/
+/*    fill: white;*/
+/*}*/
+
+
+div.tooltip {
+    position: absolute;
+    text-align: center;
+    width: 100px;
+    height: 30px;
+    padding: 2px;
+    font: 12px sans-serif;
+    background: #f1f1f1;
+    border: 0px;
+    border-radius: 8px;
+    pointer-events: none;
+}
